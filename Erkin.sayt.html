@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+        <title>phony</title>
+   
+    <style>
+        body{
+            background-color: grey;
+            
+        }
+
+        *{
+            text-decoration: none;  
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0 auto;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .kaattaa{
+            height: 1108px;
+            width: 1300px;
+            border: 1px solid  none;
+        }
+        
+        .katta{
+            border: 1px solid black;
+            height: 100px;
+            background-color: black;
+            color: white;
+        }
+        .katta h1{
+            position: relative;
+            top: 25px;
+            left: 17px;
+            text-shadow:0px 0px 7px red;
+            font-size: 40px;
+        }
+        .katta ul li{
+            display: inline-block   ;
+            padding-left: 20px;
+            position: relative;
+            left: 210px;
+            font-size:20px ;
+            position: relative;
+            top: -5px;
+            
+        }
+        .katta ul li:hover{
+            text-shadow:0px 0px 7px red;
+        }
+       
+        .katta ul li a::before{
+            /* display: none; */
+            content: " ";
+            
+            height: 3px;
+            background-color: aqua;
+            position: relative;
+            z-index: 50;
+            top: 35px;
+            width: 0;
+            
+            transition: 1.1s;
+            
+        }
+        .katta ul li:hover  a::before{
+            display: block;
+            width: 100%;
+            
+        }
+        .katta .login select{
+            border: 3px solid none;
+            background-color: aqua;
+            height: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 1px 5px 1px rgb(234, 62, 0);
+        }
+        .katta .login select:hover{
+            border: 3px solid none;
+            background-color:rgb(85, 249, 156);
+            color: rgb(25, 18, 15);
+            font-weight: 700;
+            
+        }
+        .login{
+            position: relative;
+            top:-35px;
+            left: 800px;
+        }
+        .login li a{
+            color: rgb(237, 167, 87);
+        }
+        .login li{
+            display: inline-block;
+            padding-left: 15px;
+            font-size: 20px;
+            
+            
+        }
+        
+        .login li a::before{
+            content: " ";
+            
+            height: 7px;
+            background-color:chocolate;
+            position: relative;
+            z-index: 70;
+            top: 35px;
+            width: 0;
+            border-radius: 30px;
+            
+            transition: 1.1s;
+        }
+        .login li:hover  a::before{
+            display: block;
+            width: 100%;
+        }
+        .log i{
+            color:coral;
+            background-color: coral;
+        }
+        
+      .login button i{ 
+            font-size:26px;
+            color: white;
+            position: relative;
+            left: -8px;
+            top: -1px;
+        }
+        .login button {
+            border: 1px solid none;
+            border-radius: 22px;
+            width: 170px;
+            height: 46px;
+            background-color: green;
+            box-shadow: 7px 5px 3px  red;
+            
+        }
+        .login button  a{
+            font-size: 20px;
+            color: white;
+            position: relative;
+            left: 5px;
+            top: -3px;
+        }
+        .katta ul li a{
+            color: rgb(244, 226, 226);
+        }
+        .katta2{
+            height: 1000px;
+            background-image: url(Ocens.webp);
+            background-size: cover;
+            
+          
+        }
+        .search input{
+            width: 900px;
+            height: 70px;
+            background-color: black;
+            font-size: 25px;
+            border: 6px solid none;
+            color: white;
+            font-family:  monospace;
+            border-radius: 7px;
+            position: relative;
+            top:370px;
+            left: 180px;
+            color: greenyellow;
+            text-indent: 100px;
+
+        }
+        .search input::placeholder{
+            position: relative;
+            z-index: 5;
+          
+        
+        }
+        .search i{
+            color: red;
+            position: relative;
+            top: 370px;
+            left: -710px;
+            font-size: 35px;
+            z-index: 6;
+        }
+        .soz{
+            text-align: center;
+            font-size: 40px;
+            color:darkcyan;
+            font-weight: 900;
+           font-family:sans-serif;
+           position: relative;
+           top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="kaattaa">
+        <div class="katta">
+            <h1>phony</h1>
+            <ul>
+                
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Illustrations</a></li>
+                <li><a href="#">Vectors</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Music</a></li>
+            </ul>
+            
+            <div class="login">
+                <select name="200px">
+                    <option value="Link">Explore</option>
+                    <option value="link">Biz Haqimizda</option>
+                    <option value="link">Shartnoma</option>
+                    <option value="lanunge">Rus tili</option>
+                    <option value="">English</option>
+                </select>
+                
+                <li><a href="#">Login  |</a></li>
+                <li><a href="#">Join</a></li>
+
+                <button>   <i class="fa-solid fa-arrow-up-from-bracket"></i><a href="#">  Upload </a></button>
+
+              
+                
+            </div>
+        </div>
+        <div class="katta2">
+
+            <div class="search">
+                <input type"search" placeholder="Search imges  Vectors  videos and music">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <p class="soz">Stunning free images  & royalty free stock </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
