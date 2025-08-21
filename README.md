@@ -1,4 +1,4 @@
-<h1 align="left">Hi, I'm Mukhammadi 👋</h1>
+<h1 align="left">Hi, I'm Jasurjon  👋</h1>
 
 <h3 align="left">Full-Stack Developer | Node.js Backend | React & Vue Frontend</h3>
 
